@@ -1,0 +1,8 @@
+logging:
+  level: INFO
+  loggers:
+    org.jroots.queueing: DEBUG
+
+incomingQueueUrl: https://sqs.us-east-1.amazonaws.com/328945660164/rate_limiter_entry_queue
+exitDlQueueUrl: https://sqs.us-east-1.amazonaws.com/328945660164/rate_limiter_exit_dead_letter_queue
+incomingDlQueueUrl: https://sqs.us-east-1.amazonaws.com/328945660164/rate_limiter_entry_dead_letter_queue
